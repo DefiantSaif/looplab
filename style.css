@@ -1,0 +1,49 @@
+body{
+    background: #333;
+    color: #fff;
+}
+
+.navbar {
+    border-bottom:#008ed6 3px solid ;
+    opacity: 0.8;
+}
+
+#home-section {
+    background-image: url(img/elliot-teo-379059-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#home-section .dark-overlay {
+    top:0;
+    left:0;
+    right:0;
+    width:100%;
+    min-height: 700px;
+    background: rgba(0,0,0,0.7);
+    
+}
+#home-section .home-inner{
+    padding-top: 150px;
+}
+#home-section .card-form{
+    opacity: 0.8;
+}
+#home-section .fa {
+    color: #008ed6;
+    background: #FFF;
+    border-radius: 20%;
+    
+}
+#explore-section .fa, #share-section .fa {
+    background: #333;
+    color: #fFF;
+    border-radius: 15%;
+}
+
+#create-section .fa {
+    color: #008ed6;
+    background: #fff;
+    border-radius: 15%;
+}
